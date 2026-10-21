@@ -1,0 +1,41 @@
+// 远山 — 大提琴 + 手风琴 + 定音鼓 + pad
+// 8 小节，72 BPM；大提琴旋律，手风琴/pad 长和弦，定音鼓点句首。
+title: 远山
+tempo: 72
+meter: 4/4
+reverb: 0.35
+volume: 0.72
+
+track cello instrument=cello volume=0.52 pan=0.05 velocity=0.55
+A3:2 C4:2 |
+F3:4 |
+E3:2 G3:2 |
+D3:4 |
+C3:2 E3:2 |
+A3:4 |
+G3:2 E3:2 |
+D3:4 |
+
+track accordion instrument=accordion volume=0.30 pan=-0.10 velocity=0.42
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+
+track pad instrument=pad volume=0.24 pan=0.0 velocity=0.35
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+
+track timpani instrument=timpani volume=0.38 pan=0.0 velocity=0.55
+A2:4 R:12 |
+A2:4 |

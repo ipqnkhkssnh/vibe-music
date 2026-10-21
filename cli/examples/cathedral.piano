@@ -1,0 +1,58 @@
+// 穹顶 — 小提琴 + 合唱 + 管钟 + pad + 定音鼓
+title: 穹顶
+tempo: 60
+meter: 4/4
+reverb: 0.40
+volume: 0.68
+
+track violin instrument=violin volume=0.50 pan=0.08 velocity=0.55
+E5:2 A5:2 |
+F5:4 |
+G5:2 E5:2 |
+D5:4 |
+C5:2 E5:2 |
+A5:4 |
+G5:2 E5:2 |
+D5:4 |
+C5:2 E5:2 |
+F5:2 A5:2 |
+G5:4 |
+A5:4 |
+
+track choir instrument=choir volume=0.50 pan=-0.05 velocity=0.45
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+
+track pad instrument=pad volume=0.22 pan=0.0 velocity=0.32
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+[A3 C4 E4]:4 |
+[F3 A3 C4]:4 |
+[C4 E4 G4]:4 |
+[G3 B3 D4]:4 |
+
+track bells instrument=tubularbells volume=0.35 pan=0.2 velocity=0.55
+A4:1 R:15 |
+F4:1 R:15 |
+C5:1 |
+
+track timpani instrument=timpani volume=0.35 pan=0.0 velocity=0.55
+A2:4 R:12 |
+F2:4 R:12 |
+C2:4 |

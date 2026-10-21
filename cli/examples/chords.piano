@@ -1,0 +1,18 @@
+// 和弦进行 — 演示和弦写法 [C4 E4 G4]
+title: 四拍和弦
+tempo: 84
+meter: 4/4
+reverb: 0.28
+
+track chords volume=0.7 pan=0
+[C4 E4 G4]:2 [D4 F4 A4]:2 |
+[E4 G4 B4]:2 [F4 A4 C5]:2 |
+
+track melody volume=0.92 pan=0.12
+E4:1 G4:1 C5:2 |
+B4:1 G4:1 A4:2 |
+
+track bass volume=0.55 pan=-0.2
+C3:4 | G2:4 |
+
+pedal: 0-8

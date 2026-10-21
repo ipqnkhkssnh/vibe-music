@@ -1,0 +1,38 @@
+// 摇篮模板 — 慢速、稀疏、适合放松/助眠
+// 用法：复制为 songs/<名字>.piano，再改旋律与和声。
+// 8 小节，60 BPM；前 2 小节只有伴奏，旋律从第 3 小节进入。
+title: 摇篮模板
+tempo: 60
+meter: 4/4
+reverb: 0.40
+volume: 0.62
+
+track melody volume=0.80 pan=0.10 start=8 velocity=0.60
+A4:2 C5:2
+D5:4
+E5:2 G5:2
+C5:4
+A4:2 C5:2
+C5:4
+
+track arpeggio volume=0.42 pan=0.02 velocity=0.42
+C3:1 G3:1 E4:1 B4:1 |
+A2:1 E3:1 C4:1 G4:1 |
+F2:1 C3:1 A3:1 E4:1 |
+G2:1 D3:1 C4:1 G4:1 |
+C3:1 G3:1 E4:1 B4:1 |
+A2:1 E3:1 C4:1 G4:1 |
+F2:1 C3:1 A3:1 E4:1 |
+C3:1 G3:1 E4:1 B4:1 |
+
+track bass volume=0.35 pan=-0.20 velocity=0.38
+C2:4 | A1:4 | F2:4 | G1:4 | C2:4 | A1:4 | F2:4 | C2:4 |
+
+pedal: 0-4
+pedal: 4-8
+pedal: 8-12
+pedal: 12-16
+pedal: 16-20
+pedal: 20-24
+pedal: 24-28
+pedal: 28-32

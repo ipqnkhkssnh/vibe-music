@@ -1,0 +1,113 @@
+// 霓虹公路 — 鼓组 + 电吉他 + 颤音琴 + 长笛 + 电贝斯
+title: 霓虹公路
+tempo: 96
+meter: 4/4
+reverb: 0.25
+volume: 0.80
+
+track drums instrument=drums volume=0.45 pan=0.0 velocity=0.60
+[BD CR]:1 CH:1 [SD CP]:1 CH:1 |
+BD:1 CH:0.5 CH:0.5 SD:1 CH:1 |
+BD:1 CH:1 [SD CP]:1 CH:0.5 CH:0.5 |
+BD:1 CH:0.5 CH:0.5 SD:1 [LT MT HT]:0.5 CH:0.5 |
+[BD CR]:1 CH:1 [SD CP]:1 CH:1 |
+BD:1 CH:0.5 CH:0.5 SD:1 CH:1 |
+BD:1 CH:1 [SD CP]:1 CH:0.5 CH:0.5 |
+BD:1 CH:0.5 CH:0.5 SD:1 [LT MT HT]:0.5 CH:0.5 |
+[BD CR]:1 CH:1 [SD CP]:1 CH:1 |
+BD:1 CH:0.5 CH:0.5 SD:1 CH:1 |
+BD:1 CH:1 [SD CP]:1 CH:0.5 CH:0.5 |
+BD:1 CH:0.5 CH:0.5 SD:1 [LT MT HT]:0.5 CH:0.5 |
+[BD CR]:1 CH:1 [SD CP]:1 CH:1 |
+BD:1 CH:0.5 CH:0.5 SD:1 CH:1 |
+BD:1 CH:1 [SD CP]:1 CH:0.5 CH:0.5 |
+BD:1 CH:0.5 CH:0.5 SD:1 [LT MT HT]:0.5 CH:0.5 |
+
+track guitar instrument=eguitar drive=0.55 strum=0.02 volume=0.50 pan=0.15 velocity=0.58
+[A2 E3 A3]:2 [A2 E3 A3]:2 |
+[F2 C3 F3]:2 [F2 C3 F3]:2 |
+[C3 G3 C4]:2 [C3 G3 C4]:2 |
+[G2 D3 G3]:2 [G2 D3 G3]:2 |
+[A2 E3 A3]:2 [A2 E3 A3]:2 |
+[F2 C3 F3]:2 [F2 C3 F3]:2 |
+[C3 G3 C4]:2 [C3 G3 C4]:2 |
+[G2 D3 G3]:2 [G2 D3 G3]:2 |
+[A2 E3 A3]:2 [A2 E3 A3]:2 |
+[F2 C3 F3]:2 [F2 C3 F3]:2 |
+[C3 G3 C4]:2 [C3 G3 C4]:2 |
+[G2 D3 G3]:2 [G2 D3 G3]:2 |
+[A2 E3 A3]:2 [A2 E3 A3]:2 |
+[F2 C3 F3]:2 [F2 C3 F3]:2 |
+[C3 G3 C4]:2 [C3 G3 C4]:2 |
+[G2 D3 G3]:2 [G2 D3 G3]:2 |
+
+track vibes instrument=vibraphone volume=0.45 pan=-0.10 velocity=0.45
+[A3 C4 E4 G4]:4 |
+[F3 A3 C4 E4]:4 |
+[C3 E3 G3 B3]:4 |
+[G3 B3 D4 E4]:4 |
+[A3 C4 E4 G4]:4 |
+[F3 A3 C4 E4]:4 |
+[C3 E3 G3 B3]:4 |
+[G3 B3 D4 E4]:4 |
+[A3 C4 E4 G4]:4 |
+[F3 A3 C4 E4]:4 |
+[C3 E3 G3 B3]:4 |
+[G3 B3 D4 E4]:4 |
+[A3 C4 E4 G4]:4 |
+[F3 A3 C4 E4]:4 |
+[C3 E3 G3 B3]:4 |
+[G3 B3 D4 E4]:4 |
+
+track flute instrument=flute volume=0.65 pan=0.08 velocity=0.55
+A4:2 C5:2 |
+F5:4 |
+E5:2 G5:2 |
+D5:4 |
+C5:2 E5:2 |
+A5:4 |
+G5:2 E5:2 |
+D5:4 |
+C5:2 E5:2 |
+F5:2 A5:2 |
+G5:4 |
+E5:4 |
+C5:2 E5:2 |
+F5:4 |
+D5:2 E5:2 |
+C5:4 |
+
+track bass instrument=bass volume=0.50 pan=0.0 velocity=0.52
+A1:4 |
+F2:4 |
+C2:4 |
+G2:4 |
+A1:4 |
+F2:4 |
+C2:4 |
+G2:4 |
+A1:4 |
+F2:4 |
+C2:4 |
+G2:4 |
+A1:4 |
+F2:4 |
+C2:4 |
+G2:4 |
+
+pedal: 0-4
+pedal: 4-8
+pedal: 8-12
+pedal: 12-16
+pedal: 16-20
+pedal: 20-24
+pedal: 24-28
+pedal: 28-32
+pedal: 32-36
+pedal: 36-40
+pedal: 40-44
+pedal: 44-48
+pedal: 48-52
+pedal: 52-56
+pedal: 56-60
+pedal: 60-64

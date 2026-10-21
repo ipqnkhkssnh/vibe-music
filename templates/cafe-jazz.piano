@@ -1,0 +1,47 @@
+// 旧咖啡馆 — 羽管键琴 + 低音提琴 + 钢弦吉他 + 拉丁鼓组
+// 8 小节，108 BPM；harpsichord 分解、upright walking、steel 扫弦、drums 拉丁。
+title: 旧咖啡馆
+tempo: 108
+meter: 4/4
+reverb: 0.22
+volume: 0.78
+
+track harp instrument=harpsichord volume=0.45 pan=-0.12 velocity=0.55
+C3:0.5 E3:0.5 G3:0.5 B3:0.5 G3:0.5 E3:0.5 C3:0.5 E3:0.5 |
+A2:0.5 C3:0.5 E3:0.5 G3:0.5 E3:0.5 C3:0.5 A2:0.5 C3:0.5 |
+D3:0.5 F3:0.5 A3:0.5 C4:0.5 A3:0.5 F3:0.5 D3:0.5 F3:0.5 |
+G2:0.5 B2:0.5 D3:0.5 F3:0.5 D3:0.5 B2:0.5 G2:0.5 B2:0.5 |
+C3:0.5 E3:0.5 G3:0.5 B3:0.5 G3:0.5 E3:0.5 C3:0.5 E3:0.5 |
+A2:0.5 C3:0.5 E3:0.5 G3:0.5 E3:0.5 C3:0.5 A2:0.5 C3:0.5 |
+D3:0.5 F3:0.5 A3:0.5 C4:0.5 A3:0.5 F3:0.5 D3:0.5 F3:0.5 |
+G2:0.5 B2:0.5 D3:0.5 F3:0.5 D3:0.5 B2:0.5 G2:0.5 B2:0.5 |
+
+track bass instrument=upright volume=0.52 pan=0.0 velocity=0.52
+C2:1 E2:1 G2:1 A2:1 |
+A1:1 C2:1 E2:1 G2:1 |
+D2:1 F2:1 A2:1 C3:1 |
+G2:1 B2:1 D3:1 F3:1 |
+C2:1 E2:1 G2:1 A2:1 |
+A1:1 C2:1 E2:1 G2:1 |
+D2:1 F2:1 A2:1 C3:1 |
+G2:1 B2:1 D3:1 F3:1 |
+
+track guitar instrument=steelguitar strum=0.025 volume=0.42 pan=0.15 velocity=0.48
+[C3 G3 C4 E4]:2 [C3 G3 C4 E4]:2 |
+[A2 E3 C4 G4]:2 [A2 E3 C4 G4]:2 |
+[D3 A3 C4 F4]:2 [D3 A3 C4 F4]:2 |
+[G2 D3 B3 F4]:2 [G2 D3 B3 F4]:2 |
+[C3 G3 C4 E4]:2 [C3 G3 C4 E4]:2 |
+[A2 E3 C4 G4]:2 [A2 E3 C4 G4]:2 |
+[D3 A3 C4 F4]:2 [D3 A3 C4 F4]:2 |
+[G2 D3 B3 F4]:2 [G2 D3 B3 F4]:2 |
+
+track drums instrument=drums volume=0.38 pan=0.0 velocity=0.50
+[RD CG]:1 RD:0.5 RD:0.5 [RD BG]:1 RD:0.5 RD:0.5 |
+[RD CL]:1 RD:0.5 RD:0.5 CB:0.5 CB:0.5 RD:1 |
+[RD CG]:1 RD:0.5 RD:0.5 [RD BG]:1 RD:0.5 RD:0.5 |
+[RD CL]:1 RD:0.5 RD:0.5 [CG BG]:0.5 [CG BG]:0.5 [CL CB]:1 |
+[RD CG]:1 RD:0.5 RD:0.5 [RD BG]:1 RD:0.5 RD:0.5 |
+[RD CL]:1 RD:0.5 RD:0.5 CB:0.5 CB:0.5 RD:1 |
+[RD CG]:1 RD:0.5 RD:0.5 [RD BG]:1 RD:0.5 RD:0.5 |
+[RD CL]:1 RD:0.5 RD:0.5 [CG BG]:0.5 [CG BG]:0.5 [CL CB]:1 |

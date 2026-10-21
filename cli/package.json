@@ -1,0 +1,24 @@
+{
+  "name": "vibe-music-cli",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Agent-friendly multi-instrument music CLI: write songs as text/JSON and play them.",
+  "type": "module",
+  "bin": {
+    "vibe": "./bin/vibe.js",
+    "vibe-music": "./bin/vibe.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "AGENTS.md"
+  ]
+}

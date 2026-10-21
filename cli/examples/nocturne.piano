@@ -1,0 +1,17 @@
+// 夜曲练习 — 分解和弦 + 低音，演示踏板和多轨
+title: 夜曲练习
+tempo: 72
+meter: 4/4
+reverb: 0.32
+
+track arpeggio volume=0.82 pan=0.08
+C4:1 E4:1 G4:1 C5:1 |
+A3:1 C4:1 E4:1 A4:1 |
+F3:1 A3:1 C4:1 F4:1 |
+G3:1 B3:1 D4:1 G4:1 |
+
+track bass volume=0.6 pan=-0.18
+C3:4 | A2:4 | F2:4 | G2:4 |
+
+// 四小节踩住踏板，让它自然混合
+pedal: 0-16
