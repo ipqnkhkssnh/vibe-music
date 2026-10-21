@@ -231,3 +231,9 @@ npm test
 - This project does not generate MIDI; output is WAV.
 - Drums are unpitched; `timpani` is pitched and uses note names.
 - `choir` is a stylized formant choir, not real lyrics.
+
+## License
+
+MIT © 2026 [ipqnkhkssnh](https://github.com/ipqnkhkssnh)
+
+See [LICENSE](LICENSE).

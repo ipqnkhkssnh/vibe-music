@@ -231,3 +231,9 @@ npm test
 - 不生成 MIDI，输出是 WAV。
 - 鼓组没有音高；`timpani` 有音高，走音名。
 - `choir` 是风格化 formant 合唱，不是真人歌词。
+
+## License
+
+MIT © 2026 [ipqnkhkssnh](https://github.com/ipqnkhkssnh)
+
+详见 [LICENSE](LICENSE)。

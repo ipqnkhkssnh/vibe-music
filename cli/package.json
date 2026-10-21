@@ -2,6 +2,7 @@
   "name": "vibe-music-cli",
   "version": "2.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Agent-friendly multi-instrument music CLI: write songs as text/JSON and play them.",
   "type": "module",
   "bin": {
