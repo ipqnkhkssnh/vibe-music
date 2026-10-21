@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
+仓库：[ipqnkhkssnh/vibe-music](https://github.com/ipqnkhkssnh/vibe-music)
+
 面向 Agent 的多乐器编曲技能与零依赖 CLI。用文本写谱，按场景选 **2–4 件**合适的乐器，校验、渲染 WAV 并播放。
 
 > `.piano` 只是歌曲脚本的惯用扩展名，不是“只能写钢琴”；也可以命名为 `.vibe`，内容格式不变。
@@ -34,7 +36,9 @@
 ### 运行
 
 ```bash
-git clone <your-repo-url> vibe-music
+git clone https://github.com/ipqnkhkssnh/vibe-music.git vibe-music
+# 或使用 SSH
+# git clone git@github.com:ipqnkhkssnh/vibe-music.git vibe-music
 cd vibe-music
 
 # 查看版本和乐器
@@ -219,6 +223,7 @@ npm test
 - [references/dsl.md](references/dsl.md)：谱面语法
 - [references/composition.md](references/composition.md)：作曲与配器参考
 - [templates/](templates/)：可复制模板
+- [Issues](https://github.com/ipqnkhkssnh/vibe-music/issues)：问题与建议
 
 ## 说明
 

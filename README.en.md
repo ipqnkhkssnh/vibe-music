@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | English
 
+Repository: [ipqnkhkssnh/vibe-music](https://github.com/ipqnkhkssnh/vibe-music)
+
 An agent skill and zero-dependency CLI for multi-instrument music. Write a text score, pick **2–4** instruments that fit the scene, then validate, render to WAV, and play.
 
 > `.piano` is just the conventional score extension, not "piano only". You can name a score `.vibe`; the format is unchanged.
@@ -34,7 +36,9 @@ An agent skill and zero-dependency CLI for multi-instrument music. Write a text 
 ### Run
 
 ```bash
-git clone <your-repo-url> vibe-music
+git clone https://github.com/ipqnkhkssnh/vibe-music.git vibe-music
+# or via SSH
+# git clone git@github.com:ipqnkhkssnh/vibe-music.git vibe-music
 cd vibe-music
 
 # Version and instruments
@@ -219,6 +223,7 @@ npm test
 - [references/dsl.md](references/dsl.md): score syntax
 - [references/composition.md](references/composition.md): composition and arrangement
 - [templates/](templates/): copyable templates
+- [Issues](https://github.com/ipqnkhkssnh/vibe-music/issues): questions and suggestions
 
 ## Notes
 
